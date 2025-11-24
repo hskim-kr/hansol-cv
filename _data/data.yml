@@ -2,13 +2,6 @@ name: Hansol Kim
 support_dark_mode: true
 fork: true
 
-# Social Links
-social:
-- link: https://hansol-kim.github.io
-  text: "Github"
-- link: https://www.linkedin.com/in/hansol-kim
-  text: LinkedIn
-
 # Sidebar
 contact:
   email: hansol@postech.ac.kr

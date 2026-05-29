@@ -51,21 +51,21 @@ research_interests:
 publications:
   international_papers:
     - authors:
-      - name: "J. Kim"
-      - name: "H. Kim"
-        me: true
-      - name: "S.-E. Lim"
-      - name: "B.-I. Kim"
+        - name: "J. Kim"
+        - name: "H. Kim"
+          me: true
+        - name: "S.-E. Lim"
+        - name: "B.-I. Kim"
       year: 2026
       title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
       journal: "Annals of Operations Research"
       status: "Under review"
 
     - authors:
-      - name: "H. Kim"
-        me: true
-      - name: "S. Hong"
-      - name: "B.-I. Kim"
+        - name: "H. Kim"
+          me: true
+        - name: "S. Hong"
+        - name: "B.-I. Kim"
       year: 2026
       title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
       journal: ""

@@ -1,7 +1,29 @@
-<div class="header">
-    <h1 class="title">{{site.data.data.name}}</h1>
-    {% if site.data.data.support_dark_mode%}
-      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
-    {%endif%}
-  </div>
+.header {
+  width: var(--cv-inner-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: var(--cv-sidebar-width) 1fr;
+  column-gap: var(--cv-column-gap);
+  align-items: center;
+
+  .title {
+    grid-column: 1;
+    margin: 0;
+    color: var(--fg-color-dark);
+    font-weight: bolder;
+    text-align: left;
+  }
+
+  input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+
+  label {
+    grid-column: 2;
+    justify-self: end;
+    cursor: pointer;
+    color: var(--fg-color-dark);
+  }
+}

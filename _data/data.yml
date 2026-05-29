@@ -48,39 +48,6 @@ research_interests:
     - "Combinatorial Optimization (Mixed Integer Programming)"
     - "Heuristics & Metaheuristics & Matheuristics"
 
-rd_projects:
-  - time: "Dec 2025 - Present"
-    title: "Consulting on Porting the Berth Scheduling Engine to the Production Environment"
-    organization: "Pohang Iron & Steel Company Digital Transformation (POSCO DX)"
-
-  - time: "Oct 2025 - Present"
-    title: "Development of Berth Scheduling Algorithm Considering Refined Handling Efficiency by Berth and Brand"
-    organization: "Pohang Iron & Steel Company (POSCO)"
-
-  - time: "Apr 2024 - Jan 2025"
-    title: "Development of Reservation Algorithm for Medical Imaging Equipment"
-    organization: "National Research Foundation of Korea (NRF)"
-
-  - time: "Mar 2024 - Jul 2025"
-    title: "Development of Raw Material Unloading Scheduling Algorithm for Multiple Ships"
-    organization: "Pohang Iron & Steel Company (POSCO)"
-
-  - time: "Aug 2023 - Jan 2024"
-    title: "Nurse Scheduling Algorithm for Smart Hospital"
-    organization: "National Research Foundation of Korea (NRF)"
-
-  - time: "May 2023 - Sep 2023"
-    title: "Optimization of Long-Term Shipbuilding Production Plans (2nd stage)"
-    organization: "Samsung Heavy Industries"
-
-  - time: "Feb 2023 - Dec 2023"
-    title: "Basic Research Lab for Smart Signal System Operation in the Era of Transition to Autonomous Vehicle"
-    organization: "National Research Foundation of Korea (NRF)"
-
-  - time: "Sep 2021 - May 2022"
-    title: "Development of an Optimal Hydrogen Supply Chain Model for Hydrogen Production Facilities and Refueling Stations"
-    organization: "Korea Institute of Energy Technology Evaluation and Planning (KETEP)"
-
 publications:
   international_papers:
     - authors:
@@ -209,6 +176,39 @@ publications:
       year: "2022"
       title: "Decision Support System (DSS) for Optimization of Hydrogen Refueling Stations Deployment and Supply Chain Networks"
       venue: "2022 KIIE/KORMS Spring Joint Conference, Jeju, Korea"
+
+rd_projects:
+  - time: "Dec 2025 - Present"
+    title: "Consulting on Porting the Berth Scheduling Engine to the Production Environment"
+    organization: "Pohang Iron & Steel Company Digital Transformation (POSCO DX)"
+
+  - time: "Oct 2025 - Present"
+    title: "Development of Berth Scheduling Algorithm Considering Refined Handling Efficiency by Berth and Brand"
+    organization: "Pohang Iron & Steel Company (POSCO)"
+
+  - time: "Apr 2024 - Jan 2025"
+    title: "Development of Reservation Algorithm for Medical Imaging Equipment"
+    organization: "National Research Foundation of Korea (NRF)"
+
+  - time: "Mar 2024 - Jul 2025"
+    title: "Development of Raw Material Unloading Scheduling Algorithm for Multiple Ships"
+    organization: "Pohang Iron & Steel Company (POSCO)"
+
+  - time: "Aug 2023 - Jan 2024"
+    title: "Nurse Scheduling Algorithm for Smart Hospital"
+    organization: "National Research Foundation of Korea (NRF)"
+
+  - time: "May 2023 - Sep 2023"
+    title: "Optimization of Long-Term Shipbuilding Production Plans (2nd stage)"
+    organization: "Samsung Heavy Industries"
+
+  - time: "Feb 2023 - Dec 2023"
+    title: "Basic Research Lab for Smart Signal System Operation in the Era of Transition to Autonomous Vehicle"
+    organization: "National Research Foundation of Korea (NRF)"
+
+  - time: "Sep 2021 - May 2022"
+    title: "Development of an Optimal Hydrogen Supply Chain Model for Hydrogen Production Facilities and Refueling Stations"
+    organization: "Korea Institute of Energy Technology Evaluation and Planning (KETEP)"
 
 teaching:
   - role: "Teaching Assistant"

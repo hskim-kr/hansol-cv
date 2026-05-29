@@ -21,11 +21,11 @@
               {{ author.name }}
               
               {% if author.coauthor %}
-              <sup>†</sup>
+                <sup>†</sup>
               {% endif %}
               
               {% if author.corresponding %}
-              <sup>*</sup>
+                <sup>*</sup>
               {% endif %}
               </span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
           {% endfor %}

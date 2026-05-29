@@ -106,17 +106,35 @@ publications:
       venue: "2024 INFORMS Annual Meeting, Seattle, Washington, U.S.A."
 
   domestic:
-    - authors: "Kim, J., Na, J., Kim, H., Lee, S., & Kim, B.-I."
+    - authors: 
+        - name: "J. Kim"
+        - name: "J. Na"
+        - name: "H. Kim" 
+          me: true
+        - name: "S. Lee"
+        - name: "B.-I. Kim"
       year: "2024"
       title: "Comparison of traffic signal synchronization in multi-intersections"
       venue: "2024 Fall Conference of KIIE, Seoul, Korea"
 
-    - authors: "Kim, H., Cho, E., Kim, B.-I., Lee, J., & Kang, D."
+    - authors:
+        - name: "H. Kim"
+          me: true
+        - name: "E. Cho"
+        - name: "B.-I. Kim"
+        - name: "J. Lee"
+        - name: "D. Kang"
       year: "2024"
       title: "Algorithm for nurse scheduling based on mathematical models"
       venue: "2024 KIIE/KORMS Spring Joint Conference, Yeosu, Korea"
 
-    - authors: "Kim, J., Na, J., Kim, H., Lee, S., & Kim, B.-I."
+    - authors:
+        - name: "J. Kim"
+        - name: "J. Na"
+        - name: "H. Kim"
+          me: true
+        - name: "S. Lee"
+        - name: "B.-I. Kim"
       year: "2024"
       title: "Comparison of traffic signal synchronization in multi-intersections"
       venue: "2024 KIIE/KORMS Spring Joint Conference, Yeosu, Korea"

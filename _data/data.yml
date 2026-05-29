@@ -83,12 +83,24 @@ rd_projects:
 
 publications:
   international:
-    - authors: "Kim, H., Hong, S., Kim, B.-I., Sung, H.-J., & Wi, H."
+    - authors:
+        - name: "H. Kim"
+          me: true
+        - name: "S. Hong"
+        - name: "B.-I. Kim"
+        - name: "H.-J. Sung"
+        - name: "H. Wi"
       year: "2025"
       title: "A Heuristic Approach to Scheduling Raw-Material Unloading at a Steelworks"
       venue: "2025 INFORMS Annual Meeting, Atlanta, Georgia, U.S.A."
 
-    - authors: "Kim, H., Cho, E., Kim, B.-I., Lee, J., & Kang, D."
+    - authors:
+        - name: "H. Kim"
+          me: true
+        - name: "E. Cho"
+        - name: "B.-I. Kim"
+        - name: "J. Lee"
+        - name: "D. Kang"
       year: "2024"
       title: "A Mixed Integer Linear Programming Approach for Nurse Scheduling Problem with Diverse Real-World Factors"
       venue: "2024 INFORMS Annual Meeting, Seattle, Washington, U.S.A."

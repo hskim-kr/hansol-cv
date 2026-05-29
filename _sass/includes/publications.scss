@@ -2,9 +2,11 @@
     .title {
         @include header;
     }
+
     .publication-items {
         .publication-item {
             margin-bottom: 20px;
+
             .publication-title {
                 a {
                     text-decoration: none;
@@ -12,13 +14,16 @@
                     @include body-text; 
                 }
             }
+
             .authors {
-                @include body-text;               
+                @include body-text;
+                font-weight: 400;
             }
             
             .my-name {
-                font-weight: 200;
+                font-weight: 700;
             }
+
             .conference {
                 @include body-text; 
                 color: var(--fg-color-title-sm);

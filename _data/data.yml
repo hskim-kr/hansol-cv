@@ -37,36 +37,13 @@ education:
     time: "Feb 2021"
     note: "Summa Cum Laude"
     
-#education:
-#  - degree: M.S. in Industrial & Management Engineering
-#    time: 2021.9 - 2025.2
-#    university: Pohang University of Science and Technology (POSTECH)
-
-#  - degree: B.S. in Industrial Engineering
-#    time: 2016.3 - 2021.2 (Summa Cum Laude)
-#    university: Inha University
-
-# Profile
-#profile: |
-#  TBD
-
-## Experience
-#experience:
-#  - role: TBD
-#    time: TBD
-#    company: TBD
-#    details: |
-#      TBD
-#    technologies_used: | 
-#      TBD
-
 research_interests:
   topics:
     - "Placement & Routing (Network Flow Perspective)"
-    - "Vehicle Routing Problems (e.g., Location-Routing)"
+    - "Vehicle Routing Problems (e.g., Location-Routing, Inventory-Routing)"
     - "Scheduling (e.g., Shipbuilding, Nurse Rostering, Berth Allocation)"
     - "Logistics and Supply Chain Management (e.g., Hydrogen Refueling Station Deployment)"
-    - "Other Operations Research Applications (e.g., Traffic Signal Control)"
+    - "Other Operations Research Applications"
   methods:
     - "Combinatorial Optimization (Mixed Integer Programming)"
     - "Heuristics & Metaheuristics & Matheuristics"
@@ -190,4 +167,4 @@ awards:
     year: "2025"
     details: "Awarded KRW 3,250,000 (round-trip airfare support)."
 
-last_updated: "March 20, 2026"
+last_updated: "May 29, 2026"

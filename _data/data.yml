@@ -229,12 +229,30 @@ teaching:
 
 patents:
   - title: "Method and Device for Scheduling Raw Material Unloading"
-    inventors: "Kim, B.-I., Kim, H., Hong, S., Sung, H.-J., & Wi, H."
+
+    inventors:
+      - name: "B.-I. Kim"
+      - name: "H. Kim"
+        me: true
+      - name: "S. Hong"
+      - name: "H.-J. Sung"
+      - name: "H. Wi"
+
     patent_no: "Korean Patent 10-2025-0201388"
     date: "2025.12.17"
 
   - title: "Method of Optimal Planning of Hydrogen Supply Chain Network with Additional On-site Hydrogen Refueling Stations"
-    inventors: "Kim, B.-I., Kim, H., Lee, S., Song, M., Kim, H., Lee, D., & Shin, J."
+
+    inventors:
+      - name: "B.-I. Kim"
+      - name: "H. Kim"
+        me: true
+      - name: "S. Lee"
+      - name: "M. Song"
+      - name: "H. Kim"
+      - name: "D. Lee"
+      - name: "J. Shin"
+
     patent_no: "Korean Patent 10-2840676"
     date: "2025.07.28"
 

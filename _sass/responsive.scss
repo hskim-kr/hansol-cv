@@ -5,6 +5,7 @@
     box-shadow: none;
 
     .container-block {
+      width: 100%;
       display: block;
 
       .sidebar {
@@ -16,15 +17,12 @@
   }
 
   .header {
-    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
     .title {
-      margin: 0 auto;
-    }
-
-    input,
-    label {
-      display: none;
+      margin: 0;
     }
   }
 
@@ -36,14 +34,6 @@
     .compact-time {
       text-align: left;
       margin-bottom: 2px;
-    }
-  }
-
-  .education-table {
-    th,
-    td {
-      padding-left: 4px;
-      padding-right: 4px;
     }
   }
 }

@@ -1,0 +1,16 @@
+{% assign teaching = site.data.data.teaching %}
+
+{% if teaching %}
+<section class="cv-section cv-teaching">
+  <h2 class="section-title">Teaching</h2>
+
+  {% for item in teaching %}
+  <div class="compact-item">
+    <div class="compact-content">
+      <strong>{{ item.role }}</strong>, {{ item.institution }}, {{ item.course }}
+    </div>
+    <div class="compact-time">{{ item.time }}</div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

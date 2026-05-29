@@ -17,14 +17,7 @@
               <span class="my-name">{{ author.name }}</span>
             {% else %}
               <span>{{ author.name }}</span>
-            {% endif %}
-            {% unless forloop.last %}
-              {% if forloop.rindex == 2 %}
-                , &
-              {% else %}
-                ,
-              {% endif %}
-            {% endunless %}
+            {% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
           {% endfor %}
         </span>
         ({{ pub.year }}).
@@ -52,14 +45,7 @@
               <span class="my-name">{{ author.name }}</span>
             {% else %}
               <span>{{ author.name }}</span>
-            {% endif %}
-            {% unless forloop.last %}
-              {% if forloop.rindex == 2 %}
-                , &
-              {% else %}
-                ,
-              {% endif %}
-            {% endunless %}
+            {% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
           {% endfor %}
         </span>
         ({{ pub.year }}).
@@ -84,14 +70,7 @@
               <span class="my-name">{{ author.name }}</span>
             {% else %}
               <span>{{ author.name }}</span>
-            {% endif %}
-            {% unless forloop.last %}
-              {% if forloop.rindex == 2 %}
-                , &
-              {% else %}
-                ,
-              {% endif %}
-            {% endunless %}
+            {% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
           {% endfor %}
         </span>
         ({{ pub.year }}).

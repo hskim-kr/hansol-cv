@@ -4,6 +4,42 @@
 <section class="cv-section cv-publications">
   <h2 class="section-title">Publications</h2>
 
+  {% if publications.international_papers %}
+  <div class="publication-group">
+    <div class="subsection-title">International Papers</div>
+
+    <ul class="publication-list">
+      {% for pub in publications.international_papers %}
+      <li>
+        <span class="authors">
+          {% for author in pub.authors %}
+            {% if author.me %}
+              <span class="my-name">{{ author.name }}</span>
+            {% else %}
+              <span>{{ author.name }}</span>
+            {% endif %}
+
+            {% unless forloop.last %}
+              {% if forloop.rindex == 2 %}
+                , &
+              {% else %}
+                ,
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </span>
+        ({{ pub.year }}).
+        <span class="pub-title">{{ pub.title }}.</span>
+        <span class="venue">{{ pub.journal }}</span>
+        {% if pub.status %}
+        <span class="pub-status">({{ pub.status }})</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if publications.international %}
   <div class="publication-group">
     <div class="subsection-title">International Conference Presentations</div>

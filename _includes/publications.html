@@ -11,7 +11,23 @@
     <ul class="publication-list">
       {% for pub in publications.international %}
       <li>
-        <span class="authors">{{ pub.authors }}</span>
+        <span class="authors">
+          {% for author in pub.authors %}
+            {% if author.me %}
+              <strong class="my-name">{{ author.name }}</strong>
+            {% else %}
+              {{ author.name }}
+            {% endif %}
+
+            {% unless forloop.last %}
+              {% if forloop.rindex == 2 %}
+                , &
+              {% else %}
+                ,
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </span>
         ({{ pub.year }}).
         <span class="pub-title">{{ pub.title }}.</span>
         <span class="venue">{{ pub.venue }}</span>
@@ -28,7 +44,23 @@
     <ul class="publication-list">
       {% for pub in publications.domestic %}
       <li>
-        <span class="authors">{{ pub.authors }}</span>
+        <span class="authors">
+          {% for author in pub.authors %}
+            {% if author.me %}
+              <strong class="my-name">{{ author.name }}</strong>
+            {% else %}
+              {{ author.name }}
+            {% endif %}
+
+            {% unless forloop.last %}
+              {% if forloop.rindex == 2 %}
+                , &
+              {% else %}
+                ,
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </span>
         ({{ pub.year }}).
         <span class="pub-title">{{ pub.title }}.</span>
         <span class="venue">{{ pub.venue }}</span>

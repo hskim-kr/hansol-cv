@@ -1,0 +1,29 @@
+{% assign interests = site.data.data.research_interests %}
+
+{% if interests %}
+<section class="cv-section cv-research-interests">
+  <h2 class="section-title">Research Interests</h2>
+
+  {% if interests.topics %}
+  <div class="interest-block">
+    <div class="subsection-title">Research Topics</div>
+    <ul>
+      {% for topic in interests.topics %}
+      <li>{{ topic }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if interests.methods %}
+  <div class="interest-block">
+    <div class="subsection-title">Research Methods</div>
+    <ul>
+      {% for method in interests.methods %}
+      <li>{{ method }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</section>
+{% endif %}

@@ -1,32 +1,25 @@
 .cv-section {
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 
   .section-title {
-    margin: 0 0 12px 0;
-    padding: 5px 10px;
-    background: #d9d9d9;
-    color: #111;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.2;
+    @include header;
   }
 
   .subsection-title {
-    margin: 10px 0 4px 0;
-    font-weight: 700;
-    color: var(--fg-color-body);
+    @include sub-header;
+    margin-top: 10px;
+    margin-bottom: 4px;
   }
 
   ul {
     margin-top: 4px;
     margin-bottom: 10px;
+    padding-left: 22px;
   }
 
   li {
+    @include body-text;
     margin-bottom: 5px;
-    color: var(--fg-color-body);
-    font-size: 14px;
     line-height: 1.45;
   }
 }
@@ -34,25 +27,25 @@
 .education-table {
   width: 100%;
   border-collapse: collapse;
-  color: var(--fg-color-body);
-  font-size: 14px;
+  @include body-text;
 
   th {
     padding: 4px 8px;
-    border-bottom: 1px solid #111;
-    color: #111;
+    color: var(--fg-color);
     font-weight: 700;
+    border-bottom: 1px solid var(--fg-color);
     text-align: left;
   }
 
   td {
     padding: 5px 8px;
     vertical-align: top;
+    color: var(--fg-color-body);
   }
 
   .course {
     width: 90px;
-    color: #111;
+    color: var(--fg-color-dark);
     font-weight: 700;
   }
 
@@ -70,17 +63,17 @@
   grid-template-columns: 170px 1fr;
   column-gap: 18px;
   margin-bottom: 11px;
-  color: var(--fg-color-body);
-  font-size: 14px;
+  @include body-text;
   line-height: 1.45;
 
   .timeline-time {
-    color: #111;
+    color: var(--fg-color-title-sm);
     white-space: nowrap;
   }
 
   .item-title {
     color: var(--fg-color-body);
+    font-weight: 600;
   }
 
   .item-organization {
@@ -96,8 +89,8 @@
   }
 
   .authors {
+    color: var(--fg-color-body);
     font-weight: 600;
-    color: #111;
   }
 
   .pub-title {
@@ -105,8 +98,8 @@
   }
 
   .venue {
+    color: var(--fg-color-title-sm);
     font-style: italic;
-    color: var(--fg-color-body);
   }
 }
 
@@ -115,12 +108,15 @@
   grid-template-columns: 1fr 150px;
   column-gap: 16px;
   margin-bottom: 8px;
-  color: var(--fg-color-body);
-  font-size: 14px;
+  @include body-text;
   line-height: 1.45;
 
+  .compact-content {
+    color: var(--fg-color-body);
+  }
+
   .compact-time {
-    color: #111;
+    color: var(--fg-color-title-sm);
     text-align: right;
     white-space: nowrap;
   }
@@ -128,12 +124,16 @@
 
 .standard-list {
   margin-top: 5px;
+
+  li {
+    @include body-text;
+  }
 }
 
 .last-updated {
   margin-top: 36px;
   text-align: right;
-  color: var(--fg-color-body);
+  color: var(--fg-color-title-sm);
   font-size: 13px;
   font-style: italic;
 }

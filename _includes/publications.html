@@ -1,17 +1,41 @@
 {% assign publications = site.data.data.publications %}
+
 {% if publications %}
-<section class="publications">
-    <h2 class="title">Publications</h2>
-    <div class="publication-items">
-        {% for pub in publications%}
-            <div class="publication-item">
-                <div class="publication-title">
-                    <a href="{{pub.link}}">{{pub.title}}</a>
-                </div>
-                <div class="authors">{{pub.authors}}</div>
-                <div class="conference">{{pub.conference}}</div>   
-            </div>
-        {%endfor%}
-    </div>
+<section class="cv-section cv-publications">
+  <h2 class="section-title">Publications</h2>
+
+  {% if publications.international %}
+  <div class="publication-group">
+    <div class="subsection-title">International Conference Presentations</div>
+
+    <ul class="publication-list">
+      {% for pub in publications.international %}
+      <li>
+        <span class="authors">{{ pub.authors }}</span>
+        ({{ pub.year }}).
+        <span class="pub-title">{{ pub.title }}.</span>
+        <span class="venue">{{ pub.venue }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if publications.domestic %}
+  <div class="publication-group">
+    <div class="subsection-title">Domestic Conference Presentations</div>
+
+    <ul class="publication-list">
+      {% for pub in publications.domestic %}
+      <li>
+        <span class="authors">{{ pub.authors }}</span>
+        ({{ pub.year }}).
+        <span class="pub-title">{{ pub.title }}.</span>
+        <span class="venue">{{ pub.venue }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
 </section>
 {% endif %}

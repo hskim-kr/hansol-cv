@@ -14,7 +14,7 @@
         <span class="authors">
           {% for author in pub.authors %}
             {% if author.me %}
-              <strong class="my-name">{{ author.name }}</strong>
+              <span class="my-name">{{ author.name }}</span>
             {% else %}
               {{ author.name }}
             {% endif %}
@@ -47,7 +47,7 @@
         <span class="authors">
           {% for author in pub.authors %}
             {% if author.me %}
-              <strong class="my-name">{{ author.name }}</strong>
+              <span class="my-name">{{ author.name }}</span>
             {% else %}
               {{ author.name }}
             {% endif %}

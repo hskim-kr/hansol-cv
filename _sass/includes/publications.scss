@@ -18,10 +18,14 @@
             .authors {
                 @include body-text;
                 font-weight: 400;
-            }
-            
-            .my-name {
-                font-weight: 700;
+
+                * {
+                    font-weight: 400;
+                }
+
+                .my-name {
+                    font-weight: 600;
+                }
             }
 
             .conference {

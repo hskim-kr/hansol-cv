@@ -55,6 +55,7 @@ publications:
           me: true
         - name: "S. Hong"
         - name: "B.-I. Kim"
+          corresponding: true
       year: 2026
       title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
       journal: ""
@@ -62,10 +63,13 @@ publications:
       
     - authors:
         - name: "J. Kim"
+          coauthor: true
         - name: "H. Kim"
           me: true
+          coauthor: true
         - name: "S.-E. Lim"
         - name: "B.-I. Kim"
+          corresponding: true
       year: 2026
       title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
       journal: ""

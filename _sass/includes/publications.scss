@@ -13,8 +13,7 @@
                 }
             }
             .authors {
-                @include body-text;
-                color: var(--fg-color-body);                
+                @include body-text;               
             }
             
             .my-name {

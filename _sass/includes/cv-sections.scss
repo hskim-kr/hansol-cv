@@ -74,20 +74,6 @@
   .publication-list {
     margin-top: 5px;
   }
-
-  .authors {
-    color: var(--fg-color-body);
-    font-weight: 400 !important;
-  }
-
-  .authors span {
-    font-weight: 400 !important;
-  }
-
-  .authors .my-name {
-    font-weight: 600 !important;
-  }
-
   .pub-title {
     color: var(--fg-color-body);
   }
@@ -102,6 +88,19 @@
     font-size: 0.9em !important;
     font-style: italic !important;
   }
+}
+
+.authors {
+  color: var(--fg-color-body);
+  font-weight: 400 !important;
+}
+
+.authors span {
+  font-weight: 400 !important;
+}
+
+.authors .my-name {
+  font-weight: 600 !important;
 }
 
 .timeline-item {

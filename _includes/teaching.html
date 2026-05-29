@@ -4,13 +4,24 @@
 <section class="cv-section cv-teaching">
   <h2 class="section-title">Teaching</h2>
 
-  {% for item in teaching %}
-  <div class="compact-item">
-    <div class="compact-content">
-      <strong>{{ item.role }}</strong>, {{ item.institution }}, {{ item.course }}
-    </div>
-    <div class="compact-time">{{ item.time }}</div>
-  </div>
-  {% endfor %}
+  <table class="education-table">
+    <tbody>
+      {% for item in teaching %}
+      <tr>
+        <td class="course">
+          {{ item.position }}
+        </td>
+
+        <td>
+          {{ item.course }}
+        </td>
+
+        <td>
+          {{ item.period }}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </section>
 {% endif %}

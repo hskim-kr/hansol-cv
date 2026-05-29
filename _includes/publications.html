@@ -39,11 +39,13 @@
       </li>
       {% endfor %}
     </ul>
-    <div class="publication-note">
-      <sup>†</sup> Co-first authors
-      &nbsp;&nbsp;
-      <sup>*</sup> Corresponding author
-    </div>
+    {% if publications.international_papers.size > 0 %}
+      <div class="publication-note">
+        <sup>†</sup> Co-first authors
+        &nbsp;&nbsp;
+        <sup>*</sup> Corresponding author
+      </div>
+    <% endif %>
   </div>
   {% endif %}
 

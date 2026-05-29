@@ -211,25 +211,21 @@ rd_projects:
     organization: "Korea Institute of Energy Technology Evaluation and Planning (KETEP)"
 
 teaching:
-  - role: "Teaching Assistant"
-    institution: "POSTECH"
+  - position: "Teaching Assistant"
     course: "MSIP602: Operations Management"
-    time: "Spring 2026 (Present)"
+    period: "Spring 2026 (Present)"
 
-  - role: "Teaching Assistant"
-    institution: "POSTECH"
+  - position: "Teaching Assistant"
     course: "MSIP602: Oper. Manage. of the Steel Industry II"
-    time: "Fall 2025"
+    period: "Fall 2025"
 
-  - role: "Teaching Assistant"
-    institution: "POSTECH"
+  - position: "Teaching Assistant"
     course: "IMEN662: Discrete Optimization"
-    time: "Spring 2025"
+    period: "Spring 2025"
 
-  - role: "Teaching Assistant"
-    institution: "POSTECH"
+  - position: "Teaching Assistant"
     course: "IMEN662: Discrete Optimization"
-    time: "Spring 2024"
+    period: "Spring 2024"
 
 patents:
   - title: "Method and Device for Scheduling Raw Material Unloading"

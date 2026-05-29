@@ -11,34 +11,19 @@
     <ul class="publication-list">
       {% for pub in publications.international_papers %}
       <li>
-        <span class="authors">
-          {% for author in pub.authors %}
-            {% if author.me %}
-              <span class="my-name">
-              {% else %}
-              <span>
-              {% endif %}
-              {{ author.name }}
-              
-              {% if author.coauthor %}
-              <sup>†</sup>
-              {% endif %}
-              
-              {% if author.corresponding %}
-              <sup>*</sup>
-              {% endif %}
-              </span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
-          {% endfor %}
-        </span>
+        <span class="authors">{% for author in pub.authors %}<span{% if author.me %} class="my-name"{% endif %}>{{ author.name }}{% if author.coauthor %}<sup>†</sup>{% endif %}{% if author.corresponding %}<sup>*</sup>{% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}{% endfor %}</span>
         ({{ pub.year }}).
         <span class="pub-title">{{ pub.title }}.</span>
+        {% if pub.journal and pub.journal != "" %}
         <span class="venue">{{ pub.journal }}</span>
+        {% endif %}
         {% if pub.status %}
         <span class="pub-status">({{ pub.status }})</span>
         {% endif %}
       </li>
       {% endfor %}
-    </ul>    
+    </ul>
+
     <div class="publication-note">
       <sup>†</sup> Co-first authors
       &nbsp;&nbsp;
@@ -54,15 +39,7 @@
     <ul class="publication-list">
       {% for pub in publications.international %}
       <li>
-        <span class="authors">
-          {% for author in pub.authors %}
-            {% if author.me %}
-              <span class="my-name">{{ author.name }}</span>
-            {% else %}
-              <span>{{ author.name }}</span>
-            {% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
-          {% endfor %}
-        </span>
+        <span class="authors">{% for author in pub.authors %}<span{% if author.me %} class="my-name"{% endif %}>{{ author.name }}{% if author.coauthor %}<sup>†</sup>{% endif %}{% if author.corresponding %}<sup>*</sup>{% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}{% endfor %}</span>
         ({{ pub.year }}).
         <span class="pub-title">{{ pub.title }}.</span>
         <span class="venue">{{ pub.venue }}</span>
@@ -79,15 +56,7 @@
     <ul class="publication-list">
       {% for pub in publications.domestic %}
       <li>
-        <span class="authors">
-          {% for author in pub.authors %}
-            {% if author.me %}
-              <span class="my-name">{{ author.name }}</span>
-            {% else %}
-              <span>{{ author.name }}</span>
-            {% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
-          {% endfor %}
-        </span>
+        <span class="authors">{% for author in pub.authors %}<span{% if author.me %} class="my-name"{% endif %}>{{ author.name }}{% if author.coauthor %}<sup>†</sup>{% endif %}{% if author.corresponding %}<sup>*</sup>{% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}{% endfor %}</span>
         ({{ pub.year }}).
         <span class="pub-title">{{ pub.title }}.</span>
         <span class="venue">{{ pub.venue }}</span>

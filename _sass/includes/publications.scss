@@ -17,8 +17,7 @@
             }
             
             .my-name {
-                color: var(--fg-color-body);
-                font-weight: 400;
+                font-weight: 200;
             }
             .conference {
                 @include body-text; 

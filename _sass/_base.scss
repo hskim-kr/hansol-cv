@@ -10,6 +10,10 @@ body {
 }
 
 .container {
+  --cv-inner-width: 94%;
+  --cv-sidebar-width: 240px;
+  --cv-column-gap: 36px;
+
   max-width: 1050px;
   min-height: 900px;
   margin: 30px auto;
@@ -18,17 +22,17 @@ body {
   padding: 30px;
 
   .container-block {
-    width: 94%;
+    width: var(--cv-inner-width);
     margin: 0 auto;
     padding: 20px 0;
     display: grid;
-    grid-template-columns: 240px 1fr;
-    column-gap: 36px;
+    grid-template-columns: var(--cv-sidebar-width) 1fr;
+    column-gap: var(--cv-column-gap);
 
     .sidebar {
       margin-top: 20px;
       padding-right: 20px;
-      border-right: 1px solid #e5e5e5;
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
     }
 
     .main {

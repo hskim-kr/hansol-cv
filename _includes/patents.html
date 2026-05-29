@@ -15,17 +15,9 @@
           <span class="my-name">{{ inventor.name }}</span>
         {% else %}
           <span>{{ inventor.name }}</span>
-        {% endif %}  
-        {% unless forloop.last %}
-          {% if forloop.rindex == 2 %}
-            , &
-          {% else %}
-            ,
-          {% endif %}
-        {% endunless %}  
+        {% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
       {% endfor %}
-    </span>,
-  
+    </span>,  
     {{ patent.patent_no }}
     ({{ patent.date }}).
   </li>

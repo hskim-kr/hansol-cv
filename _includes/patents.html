@@ -1,0 +1,18 @@
+{% assign patents = site.data.data.patents %}
+
+{% if patents %}
+<section class="cv-section cv-patents">
+  <h2 class="section-title">Patents</h2>
+
+  <ul class="standard-list">
+    {% for patent in patents %}
+    <li>
+      "{{ patent.title }}",
+      {{ patent.inventors }},
+      {{ patent.patent_no }}
+      ({{ patent.date }}).
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

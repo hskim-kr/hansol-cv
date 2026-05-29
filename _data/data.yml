@@ -8,21 +8,12 @@ contact:
   github: hskim-kr
   linkedin: hskim-kr
   phone: +82-10-5098-0689
-  gitlab: 
-  twitter: 
+  # gitlab: 
+  # twitter: 
 
 languages:
   - idiom: Korean
   - idiom: English
-
-education:
-  - degree: M.S. in Industrial & Management Engineering
-    time: 2021.9 - 2025.2
-    university: Pohang University of Science and Technology (POSTECH)
-
-  - degree: B.S. in Industrial Engineering
-    time: 2016.3 - 2021.2 (Summa Cum Laude)
-    university: Inha University
 
 skills:
   - category: Programming
@@ -30,46 +21,173 @@ skills:
       - C++
       - Python
 
-# Profile
-profile: |
-  TBD
+education:
+  - course: "Ph.D."
+    department: "Industrial and Management Engineering, POSTECH"
+    time: "Present"
+    advisor: "Prof. Byung-In Kim"
 
-# Experience
-experience:
-  - role: TBD
-    time: TBD
-    company: TBD
-    details: |
-      TBD
-    technologies_used: | 
-      TBD
+  - course: "M.S."
+    department: "Industrial and Management Engineering, POSTECH"
+    time: "Feb 2025"
+    advisor: "Prof. Byung-In Kim"
+
+  - course: "B.S."
+    department: "Industrial and Management Engineering, Inha Univ."
+    time: "Feb 2021"
+    note: "Summa Cum Laude"
+    
+#education:
+#  - degree: M.S. in Industrial & Management Engineering
+#    time: 2021.9 - 2025.2
+#    university: Pohang University of Science and Technology (POSTECH)
+
+#  - degree: B.S. in Industrial Engineering
+#    time: 2016.3 - 2021.2 (Summa Cum Laude)
+#    university: Inha University
+
+# Profile
+#profile: |
+#  TBD
+
+## Experience
+#experience:
+#  - role: TBD
+#    time: TBD
+#    company: TBD
+#    details: |
+#      TBD
+#    technologies_used: | 
+#      TBD
+
+research_interests:
+  topics:
+    - "Placement & Routing (Network Flow Perspective)"
+    - "Vehicle Routing Problems (e.g., Location-Routing)"
+    - "Scheduling (e.g., Shipbuilding, Nurse Rostering, Berth Allocation)"
+    - "Logistics and Supply Chain Management (e.g., Hydrogen Refueling Station Deployment)"
+    - "Other Operations Research Applications (e.g., Traffic Signal Control)"
+  methods:
+    - "Combinatorial Optimization (Mixed Integer Programming)"
+    - "Heuristics & Metaheuristics & Matheuristics"
+
+rd_projects:
+  - time: "Dec 2025 - Present"
+    title: "Consulting on Porting the Berth Scheduling Engine to the Production Environment"
+    organization: "Pohang Iron & Steel Company Digital Transformation (POSCO DX)"
+
+  - time: "Oct 2025 - Present"
+    title: "Development of Berth Scheduling Algorithm Considering Refined Handling Efficiency by Berth and Brand"
+    organization: "Pohang Iron & Steel Company (POSCO)"
+
+  - time: "Apr 2024 - Jan 2025"
+    title: "Development of Reservation Algorithm for Medical Imaging Equipment"
+    organization: "National Research Foundation of Korea (NRF)"
+
+  - time: "Mar 2024 - Jul 2025"
+    title: "Development of Raw Material Unloading Scheduling Algorithm for Multiple Ships"
+    organization: "Pohang Iron & Steel Company (POSCO)"
+
+  - time: "Aug 2023 - Jan 2024"
+    title: "Nurse Scheduling Algorithm for Smart Hospital"
+    organization: "National Research Foundation of Korea (NRF)"
+
+  - time: "May 2023 - Sep 2023"
+    title: "Optimization of Long-Term Shipbuilding Production Plans (2nd stage)"
+    organization: "Samsung Heavy Industries"
+
+  - time: "Feb 2023 - Dec 2023"
+    title: "Basic Research Lab for Smart Signal System Operation in the Era of Transition to Autonomous Vehicle"
+    organization: "National Research Foundation of Korea (NRF)"
+
+  - time: "Sep 2021 - May 2022"
+    title: "Development of an Optimal Hydrogen Supply Chain Model for Hydrogen Production Facilities and Refueling Stations"
+    organization: "Korea Institute of Energy Technology Evaluation and Planning (KETEP)"
 
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  international:
+    - authors: "Kim, H., Hong, S., Kim, B.-I., Sung, H.-J., & Wi, H."
+      year: "2025"
+      title: "A Heuristic Approach to Scheduling Raw-Material Unloading at a Steelworks"
+      venue: "2025 INFORMS Annual Meeting, Atlanta, Georgia, U.S.A."
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+    - authors: "Kim, H., Cho, E., Kim, B.-I., Lee, J., & Kang, D."
+      year: "2024"
+      title: "A Mixed Integer Linear Programming Approach for Nurse Scheduling Problem with Diverse Real-World Factors"
+      venue: "2024 INFORMS Annual Meeting, Seattle, Washington, U.S.A."
 
-projects:
-  - title: TBD
-    link: #
-    details: |
-      TBD
+  domestic:
+    - authors: "Kim, J., Na, J., Kim, H., Lee, S., & Kim, B.-I."
+      year: "2024"
+      title: "Comparison of traffic signal synchronization in multi-intersections"
+      venue: "2024 Fall Conference of KIIE, Seoul, Korea"
 
-  - title: TBD
-    link: #
-    details: |
-      TBD
+    - authors: "Kim, H., Cho, E., Kim, B.-I., Lee, J., & Kang, D."
+      year: "2024"
+      title: "Algorithm for nurse scheduling based on mathematical models"
+      venue: "2024 KIIE/KORMS Spring Joint Conference, Yeosu, Korea"
 
-# Volunteering
-volunteering:
-  - time: TBD
-    role: TBD
-    company: TBD
-    details: |
-      TBD 
+    - authors: "Kim, J., Na, J., Kim, H., Lee, S., & Kim, B.-I."
+      year: "2024"
+      title: "Comparison of traffic signal synchronization in multi-intersections"
+      venue: "2024 KIIE/KORMS Spring Joint Conference, Yeosu, Korea"
+
+    - authors: "Kim, J., Kim, H., Lee, S., Kim, B.-I., Park, H., & Choi, D."
+      year: "2023"
+      title: "Comparison of traffic signal optimization algorithms at multiple intersections"
+      venue: "2023 Fall Conference of KIIE, UNIST, Ulsan, Korea"
+
+    - authors: "Lee, J., Kim, B.-I., Kim, S., & Kim, H."
+      year: "2023"
+      title: "Ship production planning algorithm at the shipyard dock"
+      venue: "2023 Fall Conference of KIIE, UNIST, Ulsan, Korea"
+
+    - authors: "Kim, H., Kim, J., Kweon, O., & Kim, B.-I."
+      year: "2023"
+      title: "Optimization of traffic signal pattern transition for multiple intersections"
+      venue: "2023 KIIE/KORMS Spring Joint Conference, Jeju, Korea"
+
+    - authors: "Lee, D., Ryu, H., Shin, J., Lee, S., Kim, H., Kim, B.-I., Song, M., Yu, Y., Kim, S., Lee, H., & Hwang, H."
+      year: "2022"
+      title: "Decision Support System (DSS) for Optimization of Hydrogen Refueling Stations Deployment and Supply Chain Networks"
+      venue: "2022 KIIE/KORMS Spring Joint Conference, Jeju, Korea"
+
+teaching:
+  - role: "Teaching Assistant"
+    institution: "POSTECH"
+    course: "MSIP602: Operations Management"
+    time: "Spring 2026 (Present)"
+
+  - role: "Teaching Assistant"
+    institution: "POSTECH"
+    course: "MSIP602: Oper. Manage. of the Steel Industry II"
+    time: "Fall 2025"
+
+  - role: "Teaching Assistant"
+    institution: "POSTECH"
+    course: "IMEN662: Discrete Optimization"
+    time: "Spring 2025"
+
+  - role: "Teaching Assistant"
+    institution: "POSTECH"
+    course: "IMEN662: Discrete Optimization"
+    time: "Spring 2024"
+
+patents:
+  - title: "Method and Device for Scheduling Raw Material Unloading"
+    inventors: "Kim, B.-I., Kim, H., Hong, S., Sung, H.-J., & Wi, H."
+    patent_no: "Korean Patent 10-2025-0201388"
+    date: "2025.12.17"
+
+  - title: "Method of Optimal Planning of Hydrogen Supply Chain Network with Additional On-site Hydrogen Refueling Stations"
+    inventors: "Kim, B.-I., Kim, H., Lee, S., Song, M., Kim, H., Lee, D., & Shin, J."
+    patent_no: "Korean Patent 10-2840676"
+    date: "2025.07.28"
+
+awards:
+  - title: "BK21 FOUR International Collaboration Program, Overseas Research Training Program"
+    organization: "POSTECH"
+    year: "2025"
+    details: "Awarded KRW 3,250,000 (round-trip airfare support)."
+
+last_updated: "March 20, 2026"

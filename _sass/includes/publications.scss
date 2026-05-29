@@ -13,7 +13,13 @@
                 }
             }
             .authors {
-                @include body-text; 
+                color: var(--fg-color-body);
+                font-weight: 400;
+            }
+            
+            .my-name {
+                color: var(--fg-color-body);
+                font-weight: 700;
             }
             .conference {
                 @include body-text; 

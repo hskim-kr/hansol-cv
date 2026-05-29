@@ -89,13 +89,15 @@
   }
 
   .authors {
-    color: var(--fg-color-body);
-    font-weight: 400;
-  }
+      font-weight: 400;
   
-  .my-name {
-    color: var(--fg-color-body);
-    font-weight: 700;
+      * {
+          font-weight: 400;
+      }
+  
+      .my-name {
+          font-weight: 600;
+      }
   }
 
   .pub-title {

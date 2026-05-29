@@ -89,15 +89,16 @@
   }
 
   .authors {
-      font-weight: 400;
-  
-      * {
-          font-weight: 400;
-      }
-  
-      .my-name {
-          font-weight: 600;
-      }
+    color: var(--fg-color-body);
+    font-weight: 400 !important;
+  }
+
+  .authors span {
+    font-weight: 400 !important;
+  }
+
+  .authors .my-name {
+    font-weight: 600 !important;
   }
 
   .pub-title {

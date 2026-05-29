@@ -16,7 +16,7 @@
             {% if author.me %}
               <span class="my-name">{{ author.name }}</span>
             {% else %}
-              {{ author.name }}
+              <span>{{ author.name }}</span>
             {% endif %}
 
             {% unless forloop.last %}
@@ -49,7 +49,7 @@
             {% if author.me %}
               <span class="my-name">{{ author.name }}</span>
             {% else %}
-              {{ author.name }}
+              <span>{{ author.name }}</span>
             {% endif %}
 
             {% unless forloop.last %}

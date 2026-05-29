@@ -56,10 +56,10 @@ publications:
         me: true
       - name: "S.-E. Lim"
       - name: "B.-I. Kim"
-    year: 2026
-    title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
-    journal: "Annals of Operations Research"
-    status: "Under review"
+      year: 2026
+      title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
+      journal: "Annals of Operations Research"
+      status: "Under review"
 
     - authors:
       - name: "H. Kim"

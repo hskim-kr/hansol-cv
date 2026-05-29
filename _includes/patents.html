@@ -10,22 +10,19 @@
     "{{ patent.title }}",
   
     <span class="authors">
-      {% for inventor in patent.inventors %}
-  
+      {% for inventor in patent.inventors %}  
         {% if inventor.me %}
           <span class="my-name">{{ inventor.name }}</span>
         {% else %}
           <span>{{ inventor.name }}</span>
-        {% endif %}
-  
+        {% endif %}  
         {% unless forloop.last %}
           {% if forloop.rindex == 2 %}
             , &
           {% else %}
             ,
           {% endif %}
-        {% endunless %}
-  
+        {% endunless %}  
       {% endfor %}
     </span>,
   

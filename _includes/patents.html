@@ -6,21 +6,12 @@
 
   <ul class="standard-list">
     {% for patent in patents %}
-   <li>
-    "{{ patent.title }}",
-  
-    <span class="authors">
-      {% for inventor in patent.inventors %}  
-        {% if inventor.me %}
-          <span class="my-name">{{ inventor.name }}</span>
-        {% else %}
-          <span>{{ inventor.name }}</span>
-        {% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}
-      {% endfor %}
-    </span>,  
-    {{ patent.patent_no }}
-    ({{ patent.date }}).
-  </li>
+    <li>
+      "{{ patent.title }}",
+      <span class="authors">{% for inventor in patent.inventors %}<span{% if inventor.me %} class="my-name"{% endif %}>{{ inventor.name }}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}{% endfor %}</span>,
+      {{ patent.patent_no }}
+      ({{ patent.date }}).
+    </li>
     {% endfor %}
   </ul>
 </section>

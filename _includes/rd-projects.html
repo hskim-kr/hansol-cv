@@ -1,0 +1,17 @@
+{% assign projects = site.data.data.rd_projects %}
+
+{% if projects %}
+<section class="cv-section cv-rd-projects">
+  <h2 class="section-title">R&amp;D Projects</h2>
+
+  {% for project in projects %}
+  <div class="timeline-item">
+    <div class="timeline-time">{{ project.time }}</div>
+    <div class="timeline-content">
+      <div class="item-title">{{ project.title }}</div>
+      <div class="item-organization">{{ project.organization }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

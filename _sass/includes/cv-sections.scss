@@ -58,29 +58,6 @@
   margin-bottom: 8px;
 }
 
-.timeline-item {
-  display: grid;
-  grid-template-columns: 170px 1fr;
-  column-gap: 18px;
-  margin-bottom: 11px;
-  @include body-text;
-  line-height: 1.45;
-
-  .timeline-time {
-    color: var(--fg-color-title-sm);
-    white-space: nowrap;
-  }
-
-  .item-title {
-    color: var(--fg-color-body);
-    font-weight: 600;
-  }
-
-  .item-organization {
-    color: var(--fg-color-title-sm);
-  }
-}
-
 .publication-group {
   margin-bottom: 14px;
 
@@ -114,6 +91,29 @@
     color: #999;
     font-size: 0.9em;
     font-style: italic;
+  }
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  column-gap: 18px;
+  margin-bottom: 11px;
+  @include body-text;
+  line-height: 1.45;
+
+  .timeline-time {
+    color: var(--fg-color-title-sm);
+    white-space: nowrap;
+  }
+
+  .item-title {
+    color: var(--fg-color-body);
+    font-weight: 600;
+  }
+
+  .item-organization {
+    color: var(--fg-color-title-sm);
   }
 }
 

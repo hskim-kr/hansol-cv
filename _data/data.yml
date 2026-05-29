@@ -106,16 +106,16 @@ publications:
       venue: "2024 INFORMS Annual Meeting, Seattle, Washington, U.S.A."
 
   domestic:
-    - authors: 
+    - authors:
         - name: "J. Kim"
         - name: "J. Na"
-        - name: "H. Kim" 
+        - name: "H. Kim"
           me: true
         - name: "S. Lee"
         - name: "B.-I. Kim"
       year: "2024"
       title: "Comparison of traffic signal synchronization in multi-intersections"
-      venue: "2024 Fall Conference of KIIE, Seoul, Korea"
+      venue: "2024 Fall Conference of KIIE, ST Center, Seoul, Korea"
 
     - authors:
         - name: "H. Kim"
@@ -139,22 +139,51 @@ publications:
       title: "Comparison of traffic signal synchronization in multi-intersections"
       venue: "2024 KIIE/KORMS Spring Joint Conference, Yeosu, Korea"
 
-    - authors: "Kim, J., Kim, H., Lee, S., Kim, B.-I., Park, H., & Choi, D."
+    - authors:
+        - name: "J. Kim"
+        - name: "H. Kim"
+          me: true
+        - name: "S. Lee"
+        - name: "B.-I. Kim"
+        - name: "H. Park"
+        - name: "D. Choi"
       year: "2023"
       title: "Comparison of traffic signal optimization algorithms at multiple intersections"
-      venue: "2023 Fall Conference of KIIE, UNIST, Ulsan, Korea"
+      venue: "2023 Fall Conference of KIIE, Ulsan National Institute of Science and Technology, Ulsan, Korea"
 
-    - authors: "Lee, J., Kim, B.-I., Kim, S., & Kim, H."
+    - authors:
+        - name: "J. Lee"
+        - name: "B.-I. Kim"
+        - name: "S. Kim"
+        - name: "H. Kim"
+          me: true
       year: "2023"
       title: "Ship production planning algorithm at the shipyard dock"
-      venue: "2023 Fall Conference of KIIE, UNIST, Ulsan, Korea"
+      venue: "2023 Fall Conference of KIIE, Ulsan National Institute of Science and Technology, Ulsan, Korea"
 
-    - authors: "Kim, H., Kim, J., Kweon, O., & Kim, B.-I."
+    - authors:
+        - name: "H. Kim"
+          me: true
+        - name: "J. Kim"
+        - name: "O. Kweon"
+        - name: "B.-I. Kim"
       year: "2023"
       title: "Optimization of traffic signal pattern transition for multiple intersections"
       venue: "2023 KIIE/KORMS Spring Joint Conference, Jeju, Korea"
 
-    - authors: "Lee, D., Ryu, H., Shin, J., Lee, S., Kim, H., Kim, B.-I., Song, M., Yu, Y., Kim, S., Lee, H., & Hwang, H."
+    - authors:
+        - name: "D. Lee"
+        - name: "H. Ryu"
+        - name: "J. Shin"
+        - name: "S. Lee"
+        - name: "H. Kim"
+          me: true
+        - name: "B.-I. Kim"
+        - name: "M. Song"
+        - name: "Y. Yu"
+        - name: "S. Kim"
+        - name: "H. Lee"
+        - name: "H. Hwang"
       year: "2022"
       title: "Decision Support System (DSS) for Optimization of Hydrogen Refueling Stations Deployment and Supply Chain Networks"
       venue: "2022 KIIE/KORMS Spring Joint Conference, Jeju, Korea"

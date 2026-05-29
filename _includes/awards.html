@@ -1,0 +1,18 @@
+{% assign awards = site.data.data.awards %}
+
+{% if awards %}
+<section class="cv-section cv-awards">
+  <h2 class="section-title">Awards &amp; Honors</h2>
+
+  <ul class="standard-list">
+    {% for award in awards %}
+    <li>
+      {{ award.title }}.
+      {{ award.organization }}.
+      {{ award.year }}.
+      {{ award.details }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

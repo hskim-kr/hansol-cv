@@ -46,10 +46,20 @@ research_interests:
     - "Other Operations Research Applications"
   methods:
     - "Combinatorial Optimization (Mixed Integer Programming)"
-    - "Heuristics & Metaheuristics & Matheuristics"
+    - "Heuristics, Metaheuristics, and Matheuristics"
 
 publications:
   international_papers:
+    - authors:
+        - name: "H. Kim"
+          me: true
+        - name: "S. Hong"
+        - name: "B.-I. Kim"
+      year: 2026
+      title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
+      journal: ""
+      status: "In preparation"
+      
     - authors:
         - name: "J. Kim"
         - name: "H. Kim"
@@ -60,16 +70,6 @@ publications:
       title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
       journal: ""
       status: "Under review"
-
-    - authors:
-        - name: "H. Kim"
-          me: true
-        - name: "S. Hong"
-        - name: "B.-I. Kim"
-      year: 2026
-      title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
-      journal: ""
-      status: "In preparation"
       
   international:
     - authors:

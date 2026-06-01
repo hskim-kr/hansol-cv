@@ -12,7 +12,15 @@
         <td>
           <div>{{ ed.department }}</div>
           {% if ed.advisor %}
-          <div class="sub-info">(Advisor: {{ ed.advisor }})</div>
+          <div class="sub-info">
+            (Advisor:
+            {% if ed.advisor_url %}
+            <a href="{{ ed.advisor_url }}" target="_blank" rel="noopener noreferrer">{{ ed.advisor }}</a>
+            {% else %}
+            {{ ed.advisor }}
+            {% endif %}
+            )
+          </div>
           {% endif %}
         </td>
         <td>

@@ -50,7 +50,14 @@
   }
 
   .sub-info {
-    color: var(--fg-color-title-sm);
+    a {
+      color: var(--fg-color-title-sm);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   }
 }
 

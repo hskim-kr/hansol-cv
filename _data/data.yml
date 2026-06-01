@@ -26,11 +26,13 @@ education:
     department: "Industrial and Management Engineering, POSTECH"
     time: "Present"
     advisor: "Prof. Byung-In Kim"
+    advisor_url: "https://bkim.postech.ac.kr/"
 
   - course: "M.S."
     department: "Industrial and Management Engineering, POSTECH"
     time: "Feb 2025"
     advisor: "Prof. Byung-In Kim"
+    advisor_url: "https://bkim.postech.ac.kr/"
 
   - course: "B.S."
     department: "Industrial and Management Engineering, Inha Univ."

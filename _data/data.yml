@@ -59,7 +59,7 @@ publications:
       year: 2026
       title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
       journal: ""
-      status: "In preparation"
+      status: "To be submitted"
       
     - authors:
         - name: "J. Kim"
@@ -73,7 +73,7 @@ publications:
       year: 2026
       title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
       journal: ""
-      status: "Under review"
+      status: "Revised manuscript under review"
       
   international:
     - authors:
@@ -250,10 +250,10 @@ patents:
     inventors:
       - name: "B.-I. Kim"
       - name: "H. Kim"
-        me: true
       - name: "S. Lee"
       - name: "M. Song"
       - name: "H. Kim"
+        me: true
       - name: "D. Lee"
       - name: "J. Shin"
 

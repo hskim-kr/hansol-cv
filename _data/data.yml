@@ -61,7 +61,7 @@ publications:
       year: 2026
       title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
       journal: ""
-      status: "To be submitted"
+      status: "Submitted"
       
     - authors:
         - name: "J. Kim"
@@ -268,4 +268,4 @@ awards:
     year: "2025"
     details: "Awarded KRW 3,250,000 (round-trip airfare support)."
 
-last_updated: "May 29, 2026"
+last_updated: "Jun 2, 2026"

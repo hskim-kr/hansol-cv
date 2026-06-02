@@ -60,7 +60,7 @@ publications:
           corresponding: true
       year: 2026
       title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
-      journal: ""
+      journal: "Computers & Operations Research"
       status: "Submitted"
       
     - authors:
@@ -74,7 +74,7 @@ publications:
           corresponding: true
       year: 2026
       title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
-      journal: ""
+      journal: "Annals of Operations Research"
       status: "Revised manuscript under review"
       
   international:

@@ -60,8 +60,8 @@ publications:
           corresponding: true
       year: 2026
       title: "A Matheuristic Approach for Dry Bulk Berth Scheduling with Maintenance and Vessel Shifting Considerations"
-      journal: "Computers & Operations Research"
-      status: "Submitted"
+      journal: ""
+      status: "Under review"
       
     - authors:
         - name: "J. Kim"
@@ -74,7 +74,7 @@ publications:
           corresponding: true
       year: 2026
       title: "Efficient Nurse Rostering via Feasibility Restoration and Lexicographic Optimization"
-      journal: "Annals of Operations Research"
+      journal: ""
       status: "Revised manuscript under review"
       
   international:

@@ -32,6 +32,34 @@
   </div>
   {% endif %}
 
+  {% if publications.working_papers %}
+  <div class="publication-group">
+    <div class="subsection-title">Working Papers</div>
+
+    <ul class="publication-list">
+      {% for pub in publications.working_papers %}
+      <li>
+        <span class="authors">{% for author in pub.authors %}<span{% if author.me %} class="my-name"{% endif %}>{{ author.name }}{% if author.coauthor %}<sup>†</sup>{% endif %}{% if author.corresponding %}<sup>*</sup>{% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %}, & {% else %}, {% endif %}{% endunless %}{% endfor %}</span>
+        ({{ pub.year }}).
+        <span class="pub-title">{{ pub.title }}.</span>
+        {% if pub.journal and pub.journal != "" %}
+        <span class="venue">{{ pub.journal }}</span>
+        {% endif %}
+        {% if pub.status %}
+        <span class="pub-status">({{ pub.status }})</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <div class="publication-note">
+      <sup>†</sup> Co-first authors
+      &nbsp;&nbsp;
+      <sup>*</sup> Corresponding author
+    </div>
+  </div>
+  {% endif %}
+
   {% if publications.international %}
   <div class="publication-group">
     <div class="subsection-title">International Conference Presentations</div>

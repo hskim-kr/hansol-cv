@@ -47,7 +47,8 @@ research_interests:
     - "Logistics and Supply Chain Management (e.g., Hydrogen Refueling Station Deployment)"
     - "Other Operations Research Applications"
   methods:
-    - "Combinatorial Optimization (Mixed Integer Programming)"
+    - "Combinatorial Optimization"
+    - "Exact Methods"
     - "Heuristics, Metaheuristics, and Matheuristics"
 
 publications:
